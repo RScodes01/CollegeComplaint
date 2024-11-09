@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Primary color -->
+    <color name="colorPrimary">#3F51B5</color>
+    <!-- Darker shade of the primary color -->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!-- Accent color -->
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Window background -->
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="colorGray">#9E9E9E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="notification_color">#FF5722</color> <!-- You can change this to any color code you prefer -->
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Title/Heading for the Submit Complaint Screen -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Complaint"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Category Field (Spinner) -->
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Description Field -->
+    <EditText
+        android:id="@+id/descriptionField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your complaint description"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="16dp"
+        android:minHeight="150dp" />
+
+    <!-- Priority Field (Radio Buttons for Low, Medium, High) -->
+    <RadioGroup
+        android:id="@+id/priorityGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/priorityLow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Low"
+            android:layout_marginEnd="16dp" />
+
+        <RadioButton
+            android:id="@+id/priorityMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium"
+            android:layout_marginEnd="16dp" />
+
+        <RadioButton
+            android:id="@+id/priorityHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High" />
+    </RadioGroup>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitComplaintButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Complaint"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary" />
+</LinearLayout>

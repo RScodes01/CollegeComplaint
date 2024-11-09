@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F7F7F7">
+
+    <!-- App Name / Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College Complaint App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2F4F4F"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center"/>
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="#2F4F4F"
+        android:background="@drawable/rounded_edittext"
+        android:padding="16dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#B0B0B0"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="#2F4F4F"
+        android:background="@drawable/rounded_edittext"
+        android:padding="16dp"
+        android:inputType="textPassword"
+        android:textColorHint="#B0B0B0"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:background="#2F4F4F"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Forgot Password Text -->
+    <TextView
+        android:id="@+id/forgotPasswordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="#2F4F4F"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:background="#DCDCDC"
+        android:textSize="16sp"/>
+
+</LinearLayout>

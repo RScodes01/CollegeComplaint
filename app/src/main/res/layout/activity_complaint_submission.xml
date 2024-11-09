@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title Field -->
+    <EditText
+        android:id="@+id/titleField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Description Field -->
+    <EditText
+        android:id="@+id/descriptionField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Category Field -->
+    <EditText
+        android:id="@+id/categoryField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Priority Field -->
+    <EditText
+        android:id="@+id/priorityField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Priority"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Complaint" />
+
+</LinearLayout>

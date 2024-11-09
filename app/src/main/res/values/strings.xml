@@ -1,0 +1,23 @@
+<resources>
+    <!-- The name of your app -->
+    <string name="app_name">College Complaint</string>
+    <string-array name="complaint_categories">
+        <item>Food and canteen</item>
+        <item>Infrastructure</item>
+        <item>Teacher-related</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- Array for Complaint Statuses -->
+    <string-array name="complaint_statuses">
+        <item>Resolved</item>
+        <item>In Progress</item>
+        <item>Closed</item>
+    </string-array>
+
+    <!-- Add user roles for registration -->
+    <string-array name="roles_array">
+        <item>student</item>
+        <item>admin</item>
+    </string-array>
+</resources>

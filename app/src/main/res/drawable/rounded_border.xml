@@ -1,0 +1,22 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ExtraText">
+
+    <!-- Set background color for the border -->
+    <solid android:color="#FFFFFF"/> <!-- Set the inner background color (e.g., white) -->
+
+    <!-- Define border radius (rounded corners) -->
+    <corners android:radius="16dp"/> <!-- Adjust the radius for roundness -->
+
+    <!-- Set border color and width -->
+    <stroke
+        android:color="#FF5733"
+        android:width="3dp"/> <!-- Set the border width -->
+
+    <!-- Set padding for the inner content of the view -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" />
+</shape>
